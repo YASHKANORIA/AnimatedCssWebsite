@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="fr">
+
+
+<!-- Mirrored from lagier-kevin.com/social-coke/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 24 May 2014 19:12:18 GMT -->
+<head>
+
+    <!-- Encodage de la page -->
+	<meta charset="utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Social Coke</title>
+    
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+    <!-- Balises meta : contenu SEO -->
+    <meta name="author" content="BIGOT Maxime, DENIS Léo, GEORGES Marion, LAGIER Kevin, MATT Nicolas, YAHIA Mahedine" />
+	<meta name="keywords" content="Social, coca, cola, coca cola, coke, art, coca history, bottle, coca event, social bottle, collector bottle, twitter, coca twitter, tweet, social drink, social coca, coca art" />
+	<meta name="description" content="Social coke is a Coca Cola event where you should fill a bottle to discover step by step, somes elements of the coke's universe" />
+   
+    <!-- Compatibilité éléments HTML5 IE 6,7,8 -->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Feuilles de style CSS -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+    <!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.png" />
+
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+  <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="../../platform.twitter.com/anywhere74c0.js?id=YOUR_KEY&amp;v=1" type="text/javascript"></script>
+  <script src="js/twitterConnect.js"></script>
+  <script src="js/plugins.js"></script>
+  <!-- <script src="js/jquery-latest.js"></script> -->
+  <script type="text/javascript" src="zoombox/zoombox.js"></script>
+  <link href="zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
+  <script type="text/javascript">
+    jQuery(function($){
+        $('a.zoombox').zoombox();
+        });
+  </script>
+  <script src="js/init.js"></script>
+
+</head>
+
+
+
+
+<body id="body">
+<script type="text/javascript">
+jQuery.fn.vibrate = function (conf) {
+	var config = jQuery.extend({
+		speed:		1, 
+		duration:	500, 		
+		spread:		2
+	}, conf);
+
+	return this.each(function () {
+		var t = jQuery(this);
+
+		var vibrate = function () {
+			var topPos	= Math.floor(Math.random() * config.spread) - ((config.spread - 1) / 2);
+			var leftPos	= Math.floor(Math.random() * config.spread) - ((config.spread - 1) / 2);
+			var rotate	= Math.floor(Math.random() * config.spread) - ((config.spread - 1) / 2);
+
+			t.css({
+				position:			'absolute', 
+				// left:				leftPos + 'px', 
+				// top:				topPos + 'px', 
+				WebkitTransform:	'rotate(' + rotate + 'deg)'  // cheers to erik@birdy.nu for the rotation-idea
+			});
+		};		
+
+		var doVibration = function () {
+			var vibrationInterval = setInterval(vibrate, config.speed);
+			
+			var stopVibration = function () {
+				clearInterval(vibrationInterval);
+				t.css({
+					position:			'absolute', 
+					WebkitTransform:	'rotate(0deg)'					
+				});
+			};
+
+			setTimeout(stopVibration, config.duration);						
+		};		
+			doVibration();
+	});
+	
+	
+};</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../../connect.facebook.net/fr_FR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- HOME !-->
+
+
+<header id="header">
+	<h1>Social Coke</h1>
+</header>
+
+<article id="tweetAndGo">
+	<h1>Tweet and go into Coca cola legend Coke</h1>
+</article>
+
+<article id="tweetCocaCola">
+	<h1>The design of this bottle<br/>is your responsability</h1>
+	<p>... as well as the filling of<br/><span>Coca Cola Arts</span> exhibition !</p>
+</article>
+
+<article id="tweetCocaCola2">
+	<h1>The design of this bottle<br/>is your responsability</h1>
+	<p>... as well as the filling of<br/><span>Coca Cola Arts</span> exhibition !</p>
+</article>
+
+<article id="tweetRules">
+	<h1>We rely on you !</h1>
+	<p>Tweet with <span>#socialCoke</span> and write your name on the Coca Cola special edition !</p>
+	<p>When the bottle is full, you will also get access to the Coca Cola Arts exhibition</p>
+</article>	
+<article id="tweetRules2">
+	<h1>Thank you !</h1>
+	<p>The bottle is now filled. You can now <span>discover</span> the whole site. Take your time and be immersed by the Coca Cola universe.</p>
+</article>	
+
+<article id="theCode">
+	<h1>The Code</h1>
+	<p><span>Help us to enhance this website !</span></p>
+	<p>For each tweet we add parts to the page, llustrations  and some games and informations. 
+	<p>Moreover your tweet will fall into the bottle according to a certain code...</p> 
+	<p>The country or the lenght of your tweets fix their color and the animation.</p>
+</article>
+
+<article id="about">
+	<h1>About this site</h1>
+	<p>The more tweets there are, the more the infography will be completed.</p>
+	<p>You will discover little by little a world of graphism and art that surround the Coca Cola brand.</p>
+	<p><span>Tweet and enjoy !</span></p>
+</article>
+
+<article id="tweetButton">
+	<a href="https://twitter.com/intent/tweet?hashtags=socialCoke" target="_blank"></a>
+</article>	
+
+<article id="oiseauxTweet">
+	<div id="theBottle"></div>
+	<div id="tweetInTheBottle"></div> 
+</article>
+
+<article id="conteurTweet"></article>
+
+<footer>
+	<ul>
+		<li><a href="http://coca-cola.com/" target="_blank" class="cocaColaLogo"></a></li>
+		<li><img src="img/keyboard.png" alt="Keyboard" /></li>
+		<li><img src="img/grab.png" alt="Grab" /></li>
+		<li>Social Coke est un site à but expérimental, dans le cadre d'un travail scolaire à <a href="http://www.hetic.net/">Hétic</a></li>
+		<li><div class="fb-like" data-href="http://lagier-kevin.com/social-coke" data-layout="button_count" data-width="150" data-show-faces="true"></div></li>
+	</ul>
+</footer>
+<div id="cocaColaArt">
+</div>
+
+<!-- MODULE !-->
+<div id="bottleHistoryQuestion"><img src="img/question.png"></div>
+
+<article id="bottleHistory">
+	<h1 id="bottleHistoryImg">The History of the Coca Cola Bottle</h1>
+	<p>The equally famous Coca Cola bottle was created by bottle designer Earl R. Dean.<br/>She is called the "contour bottle" within the company,also known to some as the "hobble skirt" bottle.
+	</p>
+	<p>In 1915, the Coca Cola Company launched a competition among its bottle suppliers to create a new bottle for their beverage that would distinguish it from other beverage bottles, "a bottle which a person could recognize even if they felt it in the dark, and so shaped that, even if broken, a person could tell at a glance what it was."</p>
+	<p>The so specific design of the bottle has inspired the world of art and among others Andy Warhol. He designed the green Coca cola Bottle in 1962.</p>
+	<div></div>
+</article>
+
+<article id="dragBottles">
+	<p><span>Find the right order!<span></p>
+	<div id="bottleChoices"></div>
+	<div id="bottlePlaces"></div>
+	<ul>
+		<li>1899</li>
+		<li>1900</li>
+		<li>1916</li>
+		<li>1961</li>
+		<li>1991</li>
+		<li>1999</li>
+	</ul>
+	<p id="successMessage" >What a culture!<br/>Congratulation</p>
+</article>
+
+<div id="collectorEditionQuestion"><img src="img/question.png"></div>
+<article id="collectorEdition">
+	<h1 id="collectorEditionImg">The Art of Bottle</h1>
+	<div id="collectorEditionBottles">
+		<ul>
+			<li class="displayBottle"><a class='1' href="#" ><img src='img/module/collector-editions/mini/img1.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='2' href="#"><img src='img/module/collector-editions/mini/img2.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='3' href="#"><img src='img/module/collector-editions/mini/img3.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='4' href="#"><img src='img/module/collector-editions/mini/img4.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='5' href="#"><img src='img/module/collector-editions/mini/img5.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='6' href="#"><img src='img/module/collector-editions/mini/img6.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='7' href="#"><img src='img/module/collector-editions/mini/img7.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='8' href="#"><img src='img/module/collector-editions/mini/img8.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='9' href="#"><img src='img/module/collector-editions/mini/img9.png' alt='Bouteille edition spéciale'/></a></li>
+			<li class="displayBottle"><a class='10' href="#"><img src='img/module/collector-editions/mini/img10.png' alt='Bouteille edition spéciale'/></a></li>
+		</ul>
+	</div>
+	<div class="description description_default">
+		<h2> Karl Lagerfeld's candy Edition</h2>
+		<p> International creative genius, Karl Lagerfeld, has once again conjoined his fashionable name with the powerful brand that is Coca Cola. The world-renowned designer has created three new and exclusive designs for the iconic Diet Coke aluminium bottle.<br/>Available individually or as a set in an exclusive stylish prism-shaped Collector’s Box created by the designer.</p>
+	</div>
+	<div class="description">
+		<h2> Karl Lagerfeld's candy Edition</h2>
+		<p> International creative genius, Karl Lagerfeld, has once again conjoined his fashionable name with the powerful brand that is Coca Cola. The world-renowned designer has created three new and exclusive designs for the iconic Diet Coke aluminium bottle.<br/>Available individually or as a set in an exclusive stylish prism-shaped Collector’s Box created by the designer.</p>
+	</div>
+	<div class="description">
+		<h2>Gianfranco Ferré's bow Edition</h2>
+		<p>Tommaso Aquilano and Roberto Rimondi, Creative Directors of Gianfranco Ferré, drew inspiration from four of the house’s signatures. A rich croc texture, an Obi belt, a white silk shirt, and the brand’s identifying symbol: the Signature Pin – all of which celebrate the famous Contour bottle..</p>
+	</div>
+	<div class="description">
+		<h2>Nathalie Rykiel's line Edition</h2>
+		<p>The bottle was designed by Nathalie Rykiel, famous designer Sonia Rykiel's daughter, who created fashionable stripes for the new edition. This bottle inherits design by Roberto Cavalli introduced in the beginning of 2008.</p>
+	</div>
+	<div class="description">
+		<h2>Jean Paul Gaultier’s corset Edition</h2>
+		<p>The new addition, ‘Tattoo’, is inspired by the fashion designer’s love of body art. The bottle is dressed top to toe in designs that are reminiscent of Jean Paul Gaultier’s most memorable catwalk collections</p>
+	</div>
+	<div class="description">
+		<h2>Daft Punk's silver Edition</h2>
+		<p>Coca Cola are issuing a special edition drinks bottle inspired by Daft Punk. The bottles are coloured gold and silver in tribute to the helmets worn by Daft Punk. The special edition Daft Punk bottles will be available through selected nightclubs and stores in France and available online exclusively through Colette from 21 March 2011.</p>
+	</div>
+	<div class="description">  
+		<h2>Skyfall's Edition</h2>
+		<p>The Coke Zero and James Bond partnership started back in 2008 with the release of Quantum of Solace. The Skyfall edition of bottle’s and cans definitely capture the sleekness of Bond with the picture of 007 in his iconic tuxedo on solid black. The new designed will be on the shelves shortly.</p>
+	</div>
+	<div class="description">
+		<h2>Roberto Cavalli's skull Edition</h2>
+		<p>A limited edition of Coca Cola Light bottles (300,000) customized by Roberto Cavalli will be available only in Italy from September until December 2008!.</p>
+	</div>
+	<div class="description">
+		<h2>Pixel Sisters & Orsi's Edition</h2>
+		<p>Pixel Sisters & Orsi has created together this design.</p>
+	</div>
+	<div class="description">
+		<h2>Olympic Games's 2012 Edition</h2>
+		<p>Available exclusively at Selfridges, Coca Cola has created a limited edition bottle in celebration of the London 2012 Olympic Games. Decked in a gold and white Union Jack, the iconic bottle has been given a golden British makeover.</p>
+	</div>
+	<div class="description">
+		<h2>Donatella Versace's bubbles Edition</h2>
+		<p>Coca Cola Light bottles designed by Donatella Versace at the 'Tribute to Fashion' charity event as part of Milan Fashion Week.</p>
+	</div>
+	<div class="description">
+		<h2>TextI</h2>
+		<p>Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appudivt navem, sed ut Scironis praerupta letadiva decdivnantes divtoribus Cypriis contigui navigabant, quae Isauriae scopudivs sunt controversa.</p>
+	</div>
+	<div id="screen"></div>
+</article>
+
+<div id="timelinequestion"><img src="img/question.png"></div>
+<article id="timeLine">
+	<h1 id="timeLineImg">The Art of Logo</h1>
+	<div id="logo"></div>
+	<div id="textTimeline">
+		<p>The famous Coca Cola logo was created by John Pemberton's bookkeeper, Frank Mason Robinson, in 1885.</p>
+		<p>Robinson came up with the name and chose the logo's distinctive cursive script. The typeface used, known as Spencerian script, was developed in the mid-19th century and was the dominant form of formal handwriting in the United States during that period.</p>
+		<p>Robinson also played a significant role in early Coca Cola advertising. His promotional suggestions to Pemberton included giving away thousands of free drink coupons and plastering the city of Atlanta with publicity banners and streetcar signs.</p>
+	</div>
+	<nav>
+		<button>1886</button>
+		<button>1900</button>
+		<button>1940</button>
+		<button>1950</button>
+		<button>1960</button>
+		<button>1985</button>
+		<button>1987</button>
+		<button>2009</button>
+		<div></div>
+		<div></div>
+	</nav>
+</article>
+
+<article id="drop">
+	<a href="img/slogan/drink-cocacola.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/pureassunlight.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/enjoy.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/cokeknowsnoseason.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/realthing.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/cokeisIt.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/openhapiness.jpg" class='zoombox zgallery1'></a>
+	<a href="img/slogan/delicious%20and%20refreshing.jpg" class='zoombox zgallery1'></a>
+	<div id="gouttes"></div>
+</article>
+
+<div id="fish"><img src="img/gif/fish.gif" alt="Fish" /></div>
+<div id="fish2"><img src="img/gif/fish-color.gif" alt="Fish" /></div>
+
+<div id="truckCoca"><img src="img/gif/truck-coca.gif" alt="Truck Coca Cola" /></div>
+<div id="truckCoca2"><img src="img/gif/truck-coca-color.gif" alt="Truck Coca Cola" /></div>
+
+<div id="bubble"><img src="img/gif/bulles.gif" alt="Truck Coca Cola" /></div>
+<div id="bubble2"><img src="img/gif/bulles-color.gif" alt="Truck Coca Cola" /></div>
+
+<div id="capsule">
+	<span></span>
+	<a id="hand" class="localScroll" href="#collectorEdition"></a>
+	<a id="hand2" class="localScroll" href="#cocaColaArt"></a>
+	<a id="hand3" class="localScroll" href="#bottleHistory"></a>
+	<a id="hand4" class="localScroll" href="#timeLine"></a>
+</div>
+
+<div id="nav1">
+	<a class="localScroll" href="#bottleHistory"><img src="img/nav/prev1.png"/></a>
+</div>
+<div id="nav2">
+	<a class="localScroll" href="#cocaColaArt"><img src="img/nav/next1.png"/></a>
+</div>
+
+
+<div id="nav3">
+	<a class="localScroll" href="#bottleHistory"><img src="img/nav/next3.png"/></a>
+</div>
+<div id="nav4">
+	<a class="localScroll" href="#cocaColaArt"><img src="img/nav/prev3.png"/></a>
+</div>
+
+
+
+<div id="nav5">
+	<a class="localScroll" href="#collectorEdition"><img src="img/nav/next2.png"/></a>
+</div>
+<div id="nav6">
+	<a class="localScroll" href="#timeLine"><img src="img/nav/prev4.png"/></a>
+</div>
+
+
+<div id="nav7">
+	<a class="localScroll" href="#collectorEdition"><img src="img/nav/prev3.png"/></a>
+</div>
+
+<div id="nav8">
+	<a class="localScroll" href="#timeLine"><img src="img/nav/next3.png"/></a>
+</div>
+
+
+
+</body>
+
+
+<!-- Mirrored from lagier-kevin.com/social-coke/ by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 24 May 2014 19:13:29 GMT -->
+</html>
